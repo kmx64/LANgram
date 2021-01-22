@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'VT323-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../assets/fonts/VT323-Regular.eot');
+  src: url('../assets/fonts/VT323-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../assets/fonts/VT323-Regular.svg#VT323-Regular') format('svg'),
+       url('../assets/fonts/VT323-Regular.ttf') format('truetype'),
+       url('../assets/fonts/VT323-Regular.woff') format('woff'),
+       url('../assets/fonts/VT323-Regular.woff2') format('woff2');
+}
+
+body {
+  background: darkgrey;
+  height: 100vh;
+  margin: 0;
+  width: 100vw;
+}
+
+.content {
+  background: black;
+  color: grey;
+  display: flex;
+  flex-direction: row;
+  font-family: 'VT323-Regular';
+  font-size: 3vh;
+  height: 100%;
+  width: 100%;
+}
+
+.left, .right {
+  height: 100%;
+  width: 50%;
+}
+
+.left p {
+  margin: 0;
+}
+
+.right p {
+  margin: 0;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+}
+
+.upper {
+  height: 50%;
+  width: 100%;
+}
+
+.lower {
+  height: 50%;
+  width: 100%;
+}
+
+.title {
+  background-color: navy;
+  background-color: rgb(0, 0, 128);
+  color: rgb(0, 198, 32);
+}
